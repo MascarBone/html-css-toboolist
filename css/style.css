@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(224, 224, 224);
+}
+
+header {
+    background-color: white;
+    padding: 10px 10px;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+main {
+    width: 80%;
+    background-color: white;
+    margin: 20px auto 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.buttons {
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.margins {
+    padding: 10px 20px;
+}
+
