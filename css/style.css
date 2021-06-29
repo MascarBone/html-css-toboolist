@@ -9,6 +9,10 @@ body {
     background-color: rgb(224, 224, 224);
 }
 
+.margins {
+    padding: 10px 20px;
+}
+
 header {
     background-color: white;
     padding: 10px 10px;
@@ -36,7 +40,20 @@ ul {
     border-bottom: 1px solid rgb(224, 224, 224);
 }
 
-.margins {
-    padding: 10px 20px;
+.button {
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 4px;
 }
 
+#button_task {
+    border: 2px solid rgb(10, 158, 195);
+    background-color: rgb(10, 158, 195);
+    color: white;
+}
+
+#button_section {
+    border: 2px solid lightgrey;
+    background-color: white;
+    color: lightgrey;
+}
