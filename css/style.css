@@ -34,6 +34,12 @@ main {
 
 ul {
     list-style-type: none;
+    margin: 0 10px;
+}
+
+li {
+    height: 30px;
+    line-height: 30px;
 }
 
 .buttons {
@@ -44,6 +50,55 @@ ul {
     font-size: 10px;
     padding: 2px 8px;
     border-radius: 4px;
+}
+
+.highlight {
+    padding: 3px 6px;
+    border-radius: 8px;
+    font-size: 0.7em;
+    color: white;
+}
+
+.editorial {
+    background-color: rgb(25, 96, 248);
+}
+
+.goals {
+    background-color: rgb(111, 10, 226);
+}
+
+.recruiting {
+    background-color: rgb(24, 160, 119);
+}
+
+.mobile {
+    background-color: orangered;
+}
+
+.website {
+    background-color: rgb(255, 0, 119);
+}
+
+.sales {
+    background-color: olive;
+}
+
+.round {
+    font-size: 8px;
+    margin-right: 8px;
+    padding: 2px 4px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.check {
+    border: 1px solid rgb(0, 250, 0);
+    color: rgb(0, 250, 0);
+}
+
+.cross {
+    border: 1px solid rgb(212, 0, 0);
+    color: rgb(212, 0, 0);
 }
 
 #button_task {
