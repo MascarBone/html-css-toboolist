@@ -14,16 +14,19 @@ body {
 }
 
 header {
+    height: 80px;
     background-color: white;
     padding: 10px 10px;
 }
 
 header img {
+    height: 100%;
     vertical-align: middle;
 }
 
 header h1 {
     display: inline-block;
+    vertical-align: middle;
 }
 
 main {
